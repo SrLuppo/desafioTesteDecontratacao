@@ -1,10 +1,12 @@
-body, ul, li, p {
-    background-color: rgb(201, 203, 204);
+body, ul, li {    
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(175, 177, 180);
 }
 
 a {
@@ -37,26 +39,33 @@ header {
     display: block;
     padding: 10px;
 }
+section{
+   
+}
 .noticia {
-    background-color: white;
+    background-color:rgb(175, 177, 180);
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
+    padding: 10px;
     
 }
 .noticia > div {
+    background-color: white;
+    padding: 10px;
     flex: 1 1 200px;
     margin: 10px;
     width: 400px;
     height: 300px;
 }
 .noticia > div > input{
-    background-color: rgb(191, 218, 235);
+    background-color: rgb(166, 167, 168);
     position: center;
     border-radius: 10px;
     width: 150px;
     height: 50px;
+    margin-left: 40px;
     
 }
 footer{

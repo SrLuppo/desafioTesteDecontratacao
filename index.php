@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </header>
-    <h1>Noticias</h1>
+   
     <section class="noticia">
         <div class="noticia" id="1">
             <p>
